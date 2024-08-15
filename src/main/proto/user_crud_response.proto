@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "net.effective.hex.user.crud.response";
+option java_outer_classname = "UserCrudResponseProto";
+
+message CreateUserResponse{}
+message ReadUserResponse{}
+message UpdateUserResponse{}
+message DeleteUserResponse{}
+message ListUserResponse{}
